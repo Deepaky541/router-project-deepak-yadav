@@ -2,8 +2,14 @@
     display: flex;
     justify-content: space-between;
     padding: 25px !important;
-    position: sticky;
+    position:sticky;
+    overflow: hidden;
+    border: 1px solid red;
     
+}
+.navbar img{
+    width: 120px;
+    height: 40px;
 }
 .header{
     display: flex;

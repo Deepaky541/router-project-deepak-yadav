@@ -9,7 +9,7 @@ export const Trending = () => {
     const [data, setdata] = useState([])
     useEffect(() => {
     axios({url:"http://localhost:8080/item"})
-    .then((res)=>{setdata(res.data);console.log(res.data)})
+    .then((res)=>{setdata(res.data)})
     
     }, [])
     
@@ -21,8 +21,7 @@ export const Trending = () => {
       </div>
       <div className="trending">        
         {data.map((el) => (
-          <Cardd data={el} key={el.id} />
-        ))}
+          <Cardd data={el}/>))}
       </div>
     </div>
   );

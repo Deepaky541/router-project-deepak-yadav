@@ -18,8 +18,23 @@ export const Categories = () => {
       },
     ];
   return (
-    <div className='categories'>
-     {array.map((el)=>(<Category data={el} />))}
+    <div className='allcategories'>
+        <div className='cen'>
+      <div  className='textt'>
+        <h2>We Created Products Worth Holding Onto</h2>
+        <p>
+          The products we use on a daily basis say something about the people we
+          are. We believe many things in life get better with time; it is that
+          spirit we try to infuse in everything we create. In a world where we
+          are overwhelmed by products made to break down or go out style, we aim
+          to go against that grain.
+        </p>
+      </div></div>
+      <div className="categories">
+        {array.map((el) => (
+          <Category data={el} />
+        ))}
+      </div>
     </div>
-  )
+  );
 }
