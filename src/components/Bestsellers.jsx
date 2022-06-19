@@ -15,8 +15,12 @@ export const Bestsellers = () => {
     }, [])
     
   return (
-    <div className='bestsellers'>
+    <div className='best' >
+        <h1>Our Best Sellers</h1>
+        <div className='bestsellers'>
       {seller.map((el)=>(<Cardd data={el} />))}
+    </div>
+    <button>VIEW ALL</button>
     </div>
   )
 }

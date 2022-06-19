@@ -1,0 +1,54 @@
+.footer{
+    background-color: whitesmoke;
+    padding: 20px;
+    padding-top: 60px;
+}
+.footer p{
+    font-size:small;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    margin-bottom: 30px;
+}
+.tannergoods{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   text-align: left;
+}
+.tannergoods p{
+    width: 90%;
+}
+.support{
+    margin-left: 20%;
+     display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   text-align: left;
+}
+.shop{
+    margin-left: 20%;
+     display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   text-align: left;
+}
+.tannergoods button{
+    border: none;
+    background-color: whitesmoke;
+   
+    border-bottom: 1px solid grey;
+}
+.loop{
+        display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   text-align: left;
+}
+.loop input{
+    border: none;
+    background-color: whitesmoke;
+    border-bottom: 3px solid black;
+    width: 100%;
+}

@@ -3,9 +3,7 @@
     justify-content: space-between;
     padding: 25px !important;
     position:sticky;
-    overflow: hidden;
-    border: 1px solid red;
-    
+    overflow: hidden; 
 }
 .navbar img{
     width: 120px;

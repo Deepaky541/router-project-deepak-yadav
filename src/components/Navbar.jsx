@@ -11,10 +11,10 @@ export const Navbar = () => {
         />
       </div>
       <div className="header">
-        <p>tannergoods</p>
-        <p>mazamawares</p>
-        <p>featuredcollections</p>
-        <p>finalsale</p>
+        <p>Tanner Goods</p>
+        <p>Mazama Wares</p>
+        <p>Featured Collections</p>
+        <p>Final Sale</p>
       </div>
       <div className="func">
         <p>login</p>

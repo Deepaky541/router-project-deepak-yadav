@@ -6,9 +6,11 @@ export const Cardd = ({data}) => {
   return (
   <div className='cardd'>
     <img src={data.url} alt="" />
+    <div className='cardtext'>
     <h6>{data.title}</h6>
     <p>{data.company}</p>
     <p>${data.price}</p>
+  </div>
   </div>
   )
 }

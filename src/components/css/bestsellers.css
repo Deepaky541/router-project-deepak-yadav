@@ -3,8 +3,21 @@
     grid-template-columns: auto auto auto auto;
     gap: 50px;
     justify-content: center;
+    margin: 60px;
+}
+.best{
+    margin-top: 100px;
 }
 .bestsellers img{
     height: 300px;
     width: 300px;
+}
+.best button{
+    background-color: black;
+    color: white;
+    border: none;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
