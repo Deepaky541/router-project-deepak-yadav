@@ -1,0 +1,11 @@
+.shipping{
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    background-color: rgb(109, 82, 47);
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+  
+}

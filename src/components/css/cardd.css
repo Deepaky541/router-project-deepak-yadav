@@ -1,0 +1,8 @@
+.card{
+    width: 18%;
+    border: 1px solid white;
+}
+.card :nth-child(3){
+    color: grey;
+    font-size: small;
+}

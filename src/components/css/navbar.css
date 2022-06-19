@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px !important;
+    position: sticky;
+    
+}
+.header{
+    display: flex;
+}
+.header p{
+    margin-left: 20px;
+}
+.func{
+    display: flex;
+}
+.func p{
+    margin-left: 20px;
+}
