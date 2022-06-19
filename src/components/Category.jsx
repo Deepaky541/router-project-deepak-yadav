@@ -1,15 +1,16 @@
 import React from 'react'
+import "./css/category.css"
 
-export const Category = () => {
+export const Category = ({data}) => {
   return (
     <div className='category'>
       <img
         className="image"
-        src="https://cdn.shopify.com/s/files/1/0044/9802/files/TG-Wallet-Studio-Lifestyle-02_1512x.jpg?v=1637739996"
+        src={data.url}
         alt="category"
       />
       <div className='text'>
-          <h3>Belts</h3>
+          <h1>{data.text}</h1>
           <button>SHOP NOW</button>
       </div>
     </div>

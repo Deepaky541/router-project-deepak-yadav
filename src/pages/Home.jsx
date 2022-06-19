@@ -3,6 +3,7 @@ import { Navbar } from '../components/Navbar'
 
 import { Carouselitem } from '../components/Carouselitem'
 import { Trending } from '../components/Trending'
+import { Categories } from '../components/Categories'
 
 export const Home = () => {
   return (
@@ -10,6 +11,7 @@ export const Home = () => {
         <Navbar />
         <Carouselitem />
         <Trending />
+        <Categories />
     </div>
   )
 }

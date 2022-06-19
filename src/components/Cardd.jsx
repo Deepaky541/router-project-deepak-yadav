@@ -4,7 +4,7 @@ import "./css/cardd.css";
 export const Cardd = ({data}) => {
 
   return (
-  <div className='card'>
+  <div className='cardd'>
     <img src={data.url} alt="" />
     <h6>{data.title}</h6>
     <p>{data.company}</p>
