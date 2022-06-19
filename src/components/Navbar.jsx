@@ -20,7 +20,7 @@ export const Navbar = () => {
       <div className="func">
         <p>login</p>
         <Link style={{textDecoration:"none"}} to="/about"><p>About Us</p></Link>
-        <Link style={{textDecoration:"none"}} to="/cart"><p>cart</p></Link> 
+        <Link style={{textDecoration:"none"}} to="/cart"><p>cart</p></Link>
       </div>
     </div>
   );
