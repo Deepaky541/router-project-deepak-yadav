@@ -2,8 +2,6 @@
     display: flex;
     justify-content: space-between;
     padding: 25px !important;
-    position:sticky;
-    overflow: hidden; 
 }
 .navbar img{
     width: 120px;
