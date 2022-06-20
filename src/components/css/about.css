@@ -3,7 +3,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
 }
+.about h1{
+    margin-left:-80% ;
+}
+
 .para1{
     width: 100%;
     margin-top: 60px;
