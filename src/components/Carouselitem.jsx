@@ -18,9 +18,9 @@ export const Carouselitem = () => {
               alt="First slide"
             />
             <Carousel.Caption className="caption">
-              <h5>BACK IN STOCK</h5>
-              <h1>Natural</h1>
-              <h1>Key Lanyards</h1>
+              <h5>YOUR CARRY,EVERYDAY</h5>
+              <h1>Olive Konbu</h1>
+              <h1>Crossbody</h1>
               <button
                 style={{
                   border: "none",

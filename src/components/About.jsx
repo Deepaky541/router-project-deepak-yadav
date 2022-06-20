@@ -6,7 +6,7 @@ export const About = () => {
     <div className="about">
       <h1>About Us</h1>
       <div className="para1">
-        <h2>We Create Thoughtful Products That Are Worth Holding Onto.</h2>
+        <h5>We Create Thoughtful Products That Are Worth Holding Onto.</h5>
         <p>
           The products we use on a daily basis say something about the people we
           are. We believe many things in life get better with time; it is that
@@ -16,8 +16,8 @@ export const About = () => {
         </p>
       </div>
       <div className="para2">
-        <div>
-          <h3>We Focus on Value, Durability, and a Timeless Aesthetic.</h3>
+        <div className='para22'>
+          <h5>We Focus on Value, Durability, and a Timeless Aesthetic.</h5>
           <p>
             Our goods are based in value-driven design and quality
             manufacturing. All of us make a statement every time we buy
@@ -26,7 +26,7 @@ export const About = () => {
             intersection of something made well for a fair price, created in way
             that supports those who made it.
           </p>
-          <h3>Objects In Our Lives Are Part Of Who We Are.</h3>
+          <h5>Objects In Our Lives Are Part Of Who We Are.</h5>
           <p>
             No two people are the same, just like no two wallets or bags look
             the same over time. Each carries a unique story that is a reflection
@@ -49,8 +49,8 @@ export const About = () => {
             alt=""
           />
         </div>
-        <div>
-          <h3>Our Most Valuable Assets Are The Relationships We’ve Built.</h3>
+        <div className='para32'>
+          <h5>Our Most Valuable Assets Are The Relationships We’ve Built.</h5>
           <p>
             We surround ourselves with incredibly talented, driven creatives
             that help us bring our products to life. This creative energy
@@ -58,10 +58,10 @@ export const About = () => {
             of us to do better, to think bigger and allow our own personal
             potential to flourish.
           </p>
-          <h3>
+          <h5>
             We Are All Products Of Our Environment. Let's Cultivate The Best One
             We Can.
-          </h3>
+          </h5>
           <p>
             Our company, in many ways, is defined the community we belong to. We
             are Oregonians through and through. We believe in equality for all.
