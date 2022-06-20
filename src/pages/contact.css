@@ -1,0 +1,47 @@
+.contact img{
+    width: 100%;
+    margin-top: -50px;
+}
+.contact{
+    position: relative;
+    overflow: hidden;
+}
+.inputs{
+    width: 70%;
+    background-color: white;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -90px;
+    position:relative;
+    padding-bottom: 60px;
+   
+}
+.inputs p{
+    color:rgb(170, 170, 170) ;
+}
+.inputs input{
+    width: 100%;
+    border: 1px solid rgb(215, 213, 213);
+    border-radius: 5px;
+    padding: 10px;
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.input2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.inputs button{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+}

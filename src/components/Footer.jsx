@@ -16,7 +16,7 @@ export const Footer = () => {
         </div>
         <div className="support">
           <p>S U P P O R T</p>
-          <p>Contact Us</p>
+          <Link to="/contact"><p>Contact Us</p></Link>
           <p>Shipping</p>
           <p>Returns and Exchange</p>
           <p>Replacements and Repairs</p>
